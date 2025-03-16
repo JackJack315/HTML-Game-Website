@@ -228,3 +228,10 @@ li:hover {
     background-color: black;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+    flex-wrap: wrap;
+}
