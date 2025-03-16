@@ -1,12 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --base-color: white;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Kumbh', sands-serif;
+    background-color: black;
+    background: black;
+    background-size: 100px;
 }
 
 .navbar {
-    background-color: white;
+    background-image: url(Games.jpg);
+    background-size: 90%;
     display: flex;
     justify-content: center
     align-items: center;
@@ -30,7 +40,7 @@
 #navbar__logo {
     background-color: #ff8177;
     background-image: linear-gradient(to top, #ff1900 0%, #ffb199 100%);
-    background-size: 100%;
+    background-size: 100px;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -58,13 +68,15 @@
 }
 
 .navbar__links {
-    color: #131313;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
     padding: 0 1rem;
     height: 100%;
+    background: black;
+    border-radius: 100px;
 }
 
 .navbar__btn {
@@ -93,11 +105,16 @@
 .button:hover {
     background: #4837ff;
     transition: all 0.3s ease;
+    border-color: #ffffff;
 }
 
 .navbar__links:hover {
     color: #f77062;
     transition: all 0.3s ease;
+    border-color: #ffffff;
+    border: white;
+    border-radius: white;
+    background-color: #000000;
 }
 
 @media screen and (max-width: 960px) {
@@ -122,7 +139,7 @@
         transition: all 0.5s ease;
         height: 50vh;
         z-index: -1;
-        background: #131313;
+        background: black;
     }
 
     .navbar_menu.active {
@@ -199,11 +216,15 @@
 
 li {
     text-align: center;
-    margin-block: 50px;
+    margin-block: 100px;
 }
 
 
 li:hover {
     color: red;
+    border-color: #fff;
+    background-size: 100px;
+    border-radius: 100%;
+    background-color: black;
 }
 
