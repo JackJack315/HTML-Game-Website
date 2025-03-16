@@ -1,8 +1,9 @@
-p {
-    text-align: center;
-    color: black;
-    text-decoration: solid;
+* {
+    background-color: black;
+    color: white;
 }
+
+
 
 #navbar__logo {
     background-color: #ff8177;
@@ -17,6 +18,28 @@ p {
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
+}
+
+.navbar__links {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+    background: black;
+    border-radius: 100px;
+}
+
+.navbar__links:hover {
+    color: #f77062;
+    transition: all 0.3s ease;
+    border-color: #ffffff;
+    border: white;
+    border-radius: white;
+    background-color: #000000;
+    transition: 0.5s ease-in-out;   
 }
 
 @media screen and (max-width: 960px) {
@@ -43,4 +66,8 @@ p {
         z-index: -1;
         background: #131313;
     }
+}
+
+body {
+    background-image: url(hello2.jpg);
 }

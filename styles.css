@@ -115,6 +115,7 @@
     border: white;
     border-radius: white;
     background-color: #000000;
+    transition: 0.5s ease-in-out;
 }
 
 @media screen and (max-width: 960px) {
