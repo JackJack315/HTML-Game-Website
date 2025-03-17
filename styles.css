@@ -24,7 +24,9 @@
     position: sticky;
     top: 0;
     z-index: 999;
+    
 }
+
 
 .navbar_container {
     display: flex;
@@ -110,12 +112,14 @@
 
 .navbar__links:hover {
     color: #f77062;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
     border-color: #ffffff;
     border: white;
     border-radius: white;
     background-color: #000000;
-    transition: 0.5s ease-in-out;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
 }
 
 @media screen and (max-width: 960px) {
