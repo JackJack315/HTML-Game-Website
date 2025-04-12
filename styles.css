@@ -18,6 +18,7 @@
 .navbar {
     background-image: url(Games.jpg);
     background-size: 90%;
+    animation: id 20s infinite;
     display: flex;
     justify-content: center
     align-items: center;
@@ -296,11 +297,22 @@ body {
 }
 
 @keyframes id{
-    from{
-        
+    0%, 100%{
+        background-image: url(Games.jpg);
     }
 
-    to{
+    33%{
+        background-image: url(girl.jpg);
+    }
 
+    66%{
+        background-image: url(hello2.jpg);
     }
 }
+
+#huy{
+    font-size: 14px;
+    color: white;
+    background-color: black;
+}
+

@@ -1,0 +1,12 @@
+#clicker{
+    color: black;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#auto{
+    border-color: white;
+}
